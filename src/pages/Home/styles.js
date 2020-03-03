@@ -47,16 +47,21 @@ export const AddButton = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   border-radius: 4px;
-  margin-top: 12px;
+  margin-top: auto;
 `;
 
-export const IconContainer = styled.View`
+export const ProductAmount = styled.View`
   padding: 12px;
   background: ${darken(0.03, '#7159c1')};
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   flex-direction: row;
   align-items: center;
+`;
+
+export const ProductAmountText = styled.Text`
+  color: #fff;
+  margin: 0px 4px 0px 10px;
 `;
 
 export const AddButtonText = styled.Text`
